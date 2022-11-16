@@ -45,15 +45,15 @@ This project creates a robo advisor that suggests the most beneficial cryptocurr
 
 First, create the robo advisor - the Amazon Lex bot. The Bot name is RoboAdvisor. The intent for this Bot is called recommendPortfolio and the utterances appear as follows:
 
-![snippet of our code](CryptoBot/Images/image1.png)
+![snippet of our code](Class_Project_2/CryptoBot/Images/image1.png)
 
 also define four slots as visible on the next image:
 
-![snippet of our code](CryptoBot/Images/image2.png)
+![snippet of our code](Class_Project_2/CryptoBot/Images/image2.png)
 
 The built robo advisor extended for a Lambda function interacts as following:
 
-![snippet of our code](CryptoBot/Recordings/CryptoBot.mov)
+![snippet of our code](Class_Project_2/CryptoBot/Recordings/CryptoBot.mov)
 
 ---
 
