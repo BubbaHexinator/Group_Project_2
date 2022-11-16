@@ -1,5 +1,8 @@
 # SAFEHARBOR INVESTMENT CRYPTOCURRENCY INVESTMENT ADVISOR
-![Safe Harbor Lighthouse](C:\Users\zbutl\Dropbox\Public\FINTECH BOOTCAMP\Safe-Harbor Lighthouse-Logo-610x500.png)
+---
+
+![snippet of our code](Images/Safe_harbor.png)
+
 ---
 ### Group_Project_2
 Contributors:
@@ -7,10 +10,9 @@ Zachary Butler
 Katerina Gawthorpe
 Nicholas Schulz
 
-### Technology
-Python 3.7
-Teras
-SciKit Learn
+### TECHNOLOGY
+
+The applied technologies are Amazon Lex bot and Amazon Lambda function. The used coding languages are Python 3.7 and JSON.
 
 ***
 ## PURPOSE
@@ -35,4 +37,28 @@ For our project we developed an investment bot advisor that provides a recommend
 ## Algorithm Trading and Backtesting
 If we want the trading algorithm to identify the trading signals that indicate opportunities to buy, we’re looking to identify the times when the short-window SMA is greater than the long-window LMA, as noted in May with the purple upward poiting triangle.
 
-![Short and Long Entry Exit](C:\Users\zbutl\Dropbox\Public\FINTECH BOOTCAMP\Trading Algo Buy_Sell_plot.png)
+![snippet of our code](Images/Trading_Algo.png)
+
+## ROBO ADVISOR
+
+This project creates a robo advisor that suggests the most beneficial cryptocurrency for a client to invest into. The bot is created with help of AWS services.
+
+First, create the robo advisor - the Amazon Lex bot. The Bot name is RoboAdvisor. The intent for this Bot is called recommendPortfolio and the utterances appear as follows:
+
+![snippet of our code](CryptoBot/Images/image1.png)
+
+also define four slots as visible on the next image:
+
+![snippet of our code](CryptoBot/Images/image2.png)
+
+The built robo advisor extended for a Lambda function interacts as following:
+
+![snippet of our code](CryptoBot/Recordings/CryptoBot.mov)
+
+---
+
+## LICENSE
+
+MIT
+
+---
